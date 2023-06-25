@@ -1,0 +1,61 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.nav-list {
+  width: 960px;
+  padding: 50px 0px;
+  margin: 0 auto;
+}
+
+.nav-list-item1, .nav-list-item3, .nav-list-item5, .nav-list-item7 {
+  list-style: none;
+  padding: 20px 0 20px 20px;
+  background-color: lightgrey;
+}
+
+.nav-list-item2, .nav-list-item2, .nav-list-item4, .nav-list-item6 {
+  list-style: none;
+  padding: 20px 0 20px 20px;
+}
+
+.main-box1{
+  width: 960px;
+  display: flex;
+  padding-bottom: 40px;
+  margin: 0 auto;
+}
+
+.main-box2{
+  width: 960px;
+  display: flex;
+  padding-bottom: 40px;
+  margin: 0 auto;
+}
+
+.main-box3{
+  width: 960px;
+  display: flex;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+
+.box1, .box2, .box4, .box5, .box7, .box8{
+  margin-right: 5%;
+}
+
+.box1, .box5, .box9{
+  width: 30%;
+  height: 200px;
+  background-color: orange;
+}
+
+.box2, .box3, .box4, .box6, .box7, .box8{
+  width: 30%;
+  height: 200px;
+  background-color: yellow;
+}
